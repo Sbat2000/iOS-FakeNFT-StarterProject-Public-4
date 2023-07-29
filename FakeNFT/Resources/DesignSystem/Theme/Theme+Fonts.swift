@@ -44,39 +44,23 @@ enum Theme {
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 struct ViewProvider: PreviewProvider {
+	static func makeLabel(customFont: Theme.FontStyle, text: String) -> UILabel {
+		let label = UILabel()
+		label.font = Theme.font(style: customFont)
+		label.text = text
+
+		return label
+	}
+
 	static var previews: some View {
-
-		let largeTitle = UILabel()
-		largeTitle.font = Theme.font(style: .largeTitle)
-		largeTitle.text = "Welcome"
-
-		let title1 = UILabel()
-		title1.font = Theme.font(style: .title1)
-		title1.text = "Welcome"
-
-		let title2 = UILabel()
-		title2.font = Theme.font(style: .title2)
-		title2.text = "Welcome"
-
-		let headline = UILabel()
-		headline.font = Theme.font(style: .headline)
-		headline.text = "Welcome"
-
-		let body = UILabel()
-		body.font = Theme.font(style: .body)
-		body.text = "Welcome"
-
-		let subhead = UILabel()
-		subhead.font = Theme.font(style: .subhead)
-		subhead.text = "Welcome"
-
-		let footnote = UILabel()
-		footnote.font = Theme.font(style: .footnote)
-		footnote.text = "Welcome"
-
-		let caption = UILabel()
-		caption.font = Theme.font(style: .caption)
-		caption.text = "Welcome"
+		let largeTitle = makeLabel(customFont: .largeTitle, text: "Welcome")
+		let title1 = makeLabel(customFont: .title1, text: "Welcome")
+		let title2 = makeLabel(customFont: .title2, text: "Welcome")
+		let headline = makeLabel(customFont: .headline, text: "Welcome")
+		let body = makeLabel(customFont: .body, text: "Welcome")
+		let subhead = makeLabel(customFont: .subhead, text: "Welcome")
+		let footnote = makeLabel(customFont: .footnote, text: "Welcome")
+		let caption = makeLabel(customFont: .caption, text: "Welcome")
 
 		return Group {
 			VStack(spacing: 0) {
