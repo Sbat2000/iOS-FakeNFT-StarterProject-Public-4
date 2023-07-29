@@ -44,6 +44,9 @@
 		5A21C9F12A7554B60098121A /* ILoadWithIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21C9EF2A7554B60098121A /* ILoadWithIndicator.swift */; };
 		5A21C9F22A7554B60098121A /* ILoadWithProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21C9F02A7554B60098121A /* ILoadWithProgressHUD.swift */; };
 		5A21C9F42A75555E0098121A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21C9F32A75555E0098121A /* Array+Extensions.swift */; };
+		5A3E0A062A757455002E8E7A /* Theme+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */; };
+		5A3E0A082A75748E002E8E7A /* Theme+Sizes+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */; };
+		5A3E0A0A2A757923002E8E7A /* Theme+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */; };
 		5AC1939A2A742F750011D5E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5AC193992A742F750011D5E5 /* .gitignore */; };
 		5AC1939C2A742F840011D5E5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5AC1939B2A742F840011D5E5 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
@@ -105,6 +108,9 @@
 		5A21C9EF2A7554B60098121A /* ILoadWithIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILoadWithIndicator.swift; sourceTree = "<group>"; };
 		5A21C9F02A7554B60098121A /* ILoadWithProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILoadWithProgressHUD.swift; sourceTree = "<group>"; };
 		5A21C9F32A75555E0098121A /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Fonts.swift"; sourceTree = "<group>"; };
+		5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Sizes+Spacing.swift"; sourceTree = "<group>"; };
+		5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Localizable.swift"; sourceTree = "<group>"; };
 		5AC193992A742F750011D5E5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AC1939B2A742F840011D5E5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +145,7 @@
 		3F478ECD29DB473000F6D39E /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				5A3E0A042A75742B002E8E7A /* Theme */,
 				3F478ECE29DB474E00F6D39E /* Colors.swift */,
 				3F478ED029DB476500F6D39E /* Fonts.swift */,
 			);
@@ -285,6 +292,16 @@
 				5A21C9E22A754AE50098121A /* Model.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		5A3E0A042A75742B002E8E7A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */,
+				5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */,
+				5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,11 +470,13 @@
 				5A21C9C82A7549FD0098121A /* UIColor+Hex.swift in Sources */,
 				5A21C9C72A7549FD0098121A /* UIView+Animations.swift in Sources */,
 				5A21C9DC2A754A2B0098121A /* UIView+Constraints.swift in Sources */,
+				5A3E0A082A75748E002E8E7A /* Theme+Sizes+Spacing.swift in Sources */,
 				5A21C9CA2A7549FD0098121A /* UIColor+Dynamic.swift in Sources */,
 				5A21C9DA2A754A2B0098121A /* CellCorner.swift in Sources */,
 				5A21C9EE2A754AE50098121A /* API.swift in Sources */,
 				5A21C9F12A7554B60098121A /* ILoadWithIndicator.swift in Sources */,
 				5A21C9DD2A754A2B0098121A /* UIView+Preview.swift in Sources */,
+				5A3E0A0A2A757923002E8E7A /* Theme+Localizable.swift in Sources */,
 				5A21C9F42A75555E0098121A /* Array+Extensions.swift in Sources */,
 				5A21C9C92A7549FD0098121A /* UIViewController+hideKeyboard.swift in Sources */,
 				3F478ED129DB476500F6D39E /* Fonts.swift in Sources */,
@@ -469,6 +488,7 @@
 				5A21C9BE2A7549A70098121A /* ICellViewModel.swift in Sources */,
 				5A21C9CD2A7549FD0098121A /* UICollectionView+Extensions.swift in Sources */,
 				5A21C9ED2A754AE50098121A /* Request.swift in Sources */,
+				5A3E0A062A757455002E8E7A /* Theme+Fonts.swift in Sources */,
 				5A21C9E92A754AE50098121A /* Model.swift in Sources */,
 				5A21C9DB2A754A2B0098121A /* UserDefaultsBacked.swift in Sources */,
 				5A21C9DF2A754A2B0098121A /* UIViewController+Preview.swift in Sources */,
