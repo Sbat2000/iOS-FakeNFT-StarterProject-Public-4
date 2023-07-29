@@ -47,6 +47,7 @@
 		5A3E0A062A757455002E8E7A /* Theme+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */; };
 		5A3E0A082A75748E002E8E7A /* Theme+Sizes+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */; };
 		5A3E0A0A2A757923002E8E7A /* Theme+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */; };
+		5A3E0A0C2A75C02C002E8E7A /* Theme+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A0B2A75C02C002E8E7A /* Theme+Colors.swift */; };
 		5AC1939A2A742F750011D5E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5AC193992A742F750011D5E5 /* .gitignore */; };
 		5AC1939C2A742F840011D5E5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5AC1939B2A742F840011D5E5 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
@@ -111,6 +112,7 @@
 		5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Fonts.swift"; sourceTree = "<group>"; };
 		5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Sizes+Spacing.swift"; sourceTree = "<group>"; };
 		5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Localizable.swift"; sourceTree = "<group>"; };
+		5A3E0A0B2A75C02C002E8E7A /* Theme+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Colors.swift"; sourceTree = "<group>"; };
 		5AC193992A742F750011D5E5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AC1939B2A742F840011D5E5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3E0A052A757455002E8E7A /* Theme+Fonts.swift */,
+				5A3E0A0B2A75C02C002E8E7A /* Theme+Colors.swift */,
 				5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */,
 				5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */,
 			);
@@ -495,6 +498,7 @@
 				5A21C9F22A7554B60098121A /* ILoadWithProgressHUD.swift in Sources */,
 				5A21C9D82A754A2B0098121A /* GradientDirection.swift in Sources */,
 				5A21C9EB2A754AE50098121A /* DataConvert.swift in Sources */,
+				5A3E0A0C2A75C02C002E8E7A /* Theme+Colors.swift in Sources */,
 				5A21C9DE2A754A2B0098121A /* Observable.swift in Sources */,
 				5A21C9CC2A7549FD0098121A /* UIButton+Event.swift in Sources */,
 				5A21C9D92A754A2B0098121A /* UIImage+Gradient.swift in Sources */,
