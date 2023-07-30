@@ -48,6 +48,10 @@
 		5A3E0A082A75748E002E8E7A /* Theme+Sizes+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */; };
 		5A3E0A0A2A757923002E8E7A /* Theme+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */; };
 		5A3E0A0C2A75C02C002E8E7A /* Theme+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A0B2A75C02C002E8E7A /* Theme+Colors.swift */; };
+		5A3E0A102A760581002E8E7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A0F2A760581002E8E7A /* ProfileViewController.swift */; };
+		5A3E0A122A760A69002E8E7A /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A112A760A69002E8E7A /* CatalogViewController.swift */; };
+		5A3E0A152A760B88002E8E7A /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A142A760B88002E8E7A /* ShoppingCartViewController.swift */; };
+		5A3E0A182A760C7F002E8E7A /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E0A172A760C7F002E8E7A /* StatisticsViewController.swift */; };
 		5AC1939A2A742F750011D5E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5AC193992A742F750011D5E5 /* .gitignore */; };
 		5AC1939C2A742F840011D5E5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5AC1939B2A742F840011D5E5 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
@@ -113,6 +117,10 @@
 		5A3E0A072A75748E002E8E7A /* Theme+Sizes+Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Sizes+Spacing.swift"; sourceTree = "<group>"; };
 		5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Localizable.swift"; sourceTree = "<group>"; };
 		5A3E0A0B2A75C02C002E8E7A /* Theme+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Colors.swift"; sourceTree = "<group>"; };
+		5A3E0A0F2A760581002E8E7A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5A3E0A112A760A69002E8E7A /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		5A3E0A142A760B88002E8E7A /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		5A3E0A172A760C7F002E8E7A /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		5AC193992A742F750011D5E5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AC1939B2A742F840011D5E5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +190,7 @@
 				3F68069629CBBAF100B4F915 /* AppDelegate.swift */,
 				3F68069829CBBAF100B4F915 /* SceneDelegate.swift */,
 				5A21C9B72A7539290098121A /* Core */,
+				5A3E0A0D2A7604F8002E8E7A /* Flows */,
 				5A21C9BB2A75496C0098121A /* Library */,
 				5A21C9BA2A7543710098121A /* Resources */,
 			);
@@ -305,6 +314,49 @@
 				5A3E0A092A757923002E8E7A /* Theme+Localizable.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		5A3E0A0D2A7604F8002E8E7A /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A0E2A76052A002E8E7A /* Profile */,
+				5A3E0A132A760AF7002E8E7A /* Catalog */,
+				5A3E0A162A760BD5002E8E7A /* ShoppingCart */,
+				5A3E0A192A760CF6002E8E7A /* Statistics */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		5A3E0A0E2A76052A002E8E7A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A0F2A760581002E8E7A /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5A3E0A132A760AF7002E8E7A /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A112A760A69002E8E7A /* CatalogViewController.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		5A3E0A162A760BD5002E8E7A /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A142A760B88002E8E7A /* ShoppingCartViewController.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		5A3E0A192A760CF6002E8E7A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E0A172A760C7F002E8E7A /* StatisticsViewController.swift */,
+			);
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,11 +527,13 @@
 				5A21C9DC2A754A2B0098121A /* UIView+Constraints.swift in Sources */,
 				5A3E0A082A75748E002E8E7A /* Theme+Sizes+Spacing.swift in Sources */,
 				5A21C9CA2A7549FD0098121A /* UIColor+Dynamic.swift in Sources */,
+				5A3E0A102A760581002E8E7A /* ProfileViewController.swift in Sources */,
 				5A21C9DA2A754A2B0098121A /* CellCorner.swift in Sources */,
 				5A21C9EE2A754AE50098121A /* API.swift in Sources */,
 				5A21C9F12A7554B60098121A /* ILoadWithIndicator.swift in Sources */,
 				5A21C9DD2A754A2B0098121A /* UIView+Preview.swift in Sources */,
 				5A3E0A0A2A757923002E8E7A /* Theme+Localizable.swift in Sources */,
+				5A3E0A182A760C7F002E8E7A /* StatisticsViewController.swift in Sources */,
 				5A21C9F42A75555E0098121A /* Array+Extensions.swift in Sources */,
 				5A21C9C92A7549FD0098121A /* UIViewController+hideKeyboard.swift in Sources */,
 				3F478ED129DB476500F6D39E /* Fonts.swift in Sources */,
@@ -492,12 +546,14 @@
 				5A21C9CD2A7549FD0098121A /* UICollectionView+Extensions.swift in Sources */,
 				5A21C9ED2A754AE50098121A /* Request.swift in Sources */,
 				5A3E0A062A757455002E8E7A /* Theme+Fonts.swift in Sources */,
+				5A3E0A152A760B88002E8E7A /* ShoppingCartViewController.swift in Sources */,
 				5A21C9E92A754AE50098121A /* Model.swift in Sources */,
 				5A21C9DB2A754A2B0098121A /* UserDefaultsBacked.swift in Sources */,
 				5A21C9DF2A754A2B0098121A /* UIViewController+Preview.swift in Sources */,
 				5A21C9F22A7554B60098121A /* ILoadWithProgressHUD.swift in Sources */,
 				5A21C9D82A754A2B0098121A /* GradientDirection.swift in Sources */,
 				5A21C9EB2A754AE50098121A /* DataConvert.swift in Sources */,
+				5A3E0A122A760A69002E8E7A /* CatalogViewController.swift in Sources */,
 				5A3E0A0C2A75C02C002E8E7A /* Theme+Colors.swift in Sources */,
 				5A21C9DE2A754A2B0098121A /* Observable.swift in Sources */,
 				5A21C9CC2A7549FD0098121A /* UIButton+Event.swift in Sources */,
