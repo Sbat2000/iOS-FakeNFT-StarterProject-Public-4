@@ -207,6 +207,7 @@
 - экран «Статистика» — по рейтингу.
 
 **Над проектом работали:**
+
 **["Sbat2000" ](https://github.com/Sbat2000)**  
-**["shishmakovaDaria"][(https://github.com/shishmakovaDaria)**  
+**["shishmakovaDaria"](https://github.com/shishmakovaDaria)**  
 **["RdDevi1"](https://github.com/RdDevi1)**  
